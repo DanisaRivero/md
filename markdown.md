@@ -11,6 +11,7 @@ __negritax2__
 *cursiva*
 _cursivax2_
 
+~~texto tachado~~
 * LISTA
 - LISTA:
   + LISTA
@@ -30,7 +31,7 @@ _cursivax2_
 >
 >>> Esto también
 
-`print(""Hola mundo)`
+`print("Hola mundo")`
 
 
 Bloque de código:
