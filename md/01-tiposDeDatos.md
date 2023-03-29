@@ -5,7 +5,7 @@ Existen muchos tipos de datos en javascript, aquí dejo los más usados en este 
 `String`: Valor de texto (cadenas de texto, carácteres, etc.). Se encierran en comillas `'Simples'` o `"DOBLES"`.
 
 ~~~js
-let string = "Estoy usando comillas simples";
+let string = 'Estoy usando comillas simples';
 
 const stringRandom = "Estoy usando comillas dobles";
 ~~~
