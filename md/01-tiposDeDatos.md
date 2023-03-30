@@ -34,7 +34,7 @@ let definir;
 // Esto es undefined
 ~~~
 
-`Arrays (arreglos)`: Son contenedores para collecionar datos. Ejemplo:
+`Arrays (arreglos)`: Son contenedores para coleccionar datos. Ejemplo:
 
 ~~~js
 // Queremos almacenar nombres de varios alumnos en una sola variable, usamos array.
