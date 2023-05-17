@@ -41,7 +41,7 @@ document.getElementsByTagName('tag');
 document.getElementById('id');
 
 //POR NOMBRE DE LA CLASE
-document.getElementsByClassName('.classname');
+document.getElementsByClassName('classname');
 
 //POR ETIQUETA
 document.getElementsByTagName('tag');
