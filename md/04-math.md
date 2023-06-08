@@ -19,23 +19,25 @@ Math.SQRT2   "Math.sqrt(2)"       1.414
 + Métodos
   -
 ~~~ javascript
-Math.round()  --> "Redondea un número"        // 36  } 35,75
-Math.floor()  --> "Trunca (corta un número)"  // 35  } 35,75
+Math.round()  --> "Redondea un número"        // 35,75 = 36
+Math.floor()  --> "Trunca (corta un número)"  // 35,75 = 35
 Math.max()    --> "Encuentra números altos"
 Math.min()    --> "Encuentra el número más bajo"
 Math.pow()    --> "Potencias"
 Math.sqrt()   --> "Raíz cuadrada"
 Math.cbrt()   --> "Raíz cúbica"
-Math.random() --> "Obtiene un número random entre 0 y 1. Al agregar una multiplicación *10 o *20 esto hará que pase de 0 a 1 a 0 a 10 o 0 a 20"
+Math.random() --> "Obtiene un número random entre 0 y 1. Al agregar una multiplicación *10 o *20 esto hará que pase de 0 y 1 a 0 a 10 o 0 a 20"
 ~~~
 
 ## PARSEAR CADENAS
 <hr>
 
 ~~~ js
-Number('15') // Lo devuelve como número
-parseInt('23.33') // Convierte un número decimal a entero 23.33 = 23
-parseFloat() // Convierte el string en número ya sea entero o decimal
+Number('string') // Lo convierte en número, solo sirve con números, no con letras incluidas.
+
+parseInt('string') // Convierte un número decimal a entero 23.33 = 23
+
+parseFloat('string') // Convierte el string en número ya sea entero o decimal
 ~~~
 
 ## LIMITAR LA CANTIDAD DE DECIMALES
