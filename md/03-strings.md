@@ -10,9 +10,21 @@ Para que no sea tomado como finalización del string, usamos la barra invertida 
 "Hola " + "Mundo" = "HolaMundo" // Con espacio
 ~~~
 
+* > CONCATENACIÓN DE STRINGS Y NÚMEROS:
+
+~~~ javascript
+1+2+3 = 6
+1+2+"3" = '33'
+"1"+2+3 = '123'
+
+// Al concatenar strings y números, los concatena como si fueran dos strings.
+~~~
+
 * > TEMPLATE LITERALS
 ~~~ javascript
 `El ganador del sorteo de una hamburguesa es ${ganador}`
+
+// ganador es una variable
 ~~~
 
 ## **Métodos y propiedades para strings**
