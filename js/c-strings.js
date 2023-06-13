@@ -54,8 +54,8 @@ console.log(claveDeInicio.substring(0,8));
 //* .trim() --> elimina espacios al principio y final del string
 console.log(lastname.trim());
 
-//* .resplace (<cadena a reemplazar>, <cadena de reemplazo>) --> Reemplaza una parte de la cadena por otra que se le especifica
-console.log(randomString.substring(2,6).replace('blit', 'hola'));
+//* .replace (<cadena a reemplazar>, <cadena de reemplazo>) --> Reemplaza una parte de la cadena por otra que se le especifica
+console.log(randomString.replace('Pablito', 'Jorgito'));
 
 
 //ToDo EJERCICIO DEL APELLIDO
