@@ -38,5 +38,5 @@ Para que no sea tomado como finalización del string, usamos la barra invertida 
 * "Obtener una parte de la cadena" --> string.substring(0,3);
 * "Eliminar los espacios iniciales y finales" --> string.trim();
 * "Verificar si la cadena incluye algo" --> string.includes(x);
-* "Reemplaza una parte de la cadena por la que especifiquemos (anidamos el subtring)" --> string.substring("Hola","Adiós"); // Cambiamos Hola por Adiós.
+* "Reemplaza una parte de la cadena por la que especifiquemos" --> string.substring("Hola","Adiós"); // Cambiamos Hola por Adiós.
 ~~~
